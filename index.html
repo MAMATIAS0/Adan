@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#0b1220;
+}
+
+.card{
+    width:380px;
+    height:95vh;
+    max-height:900px;
+
+    background:white;
+    border-radius:30px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    padding:40px 20px;
+}
+
+.profile{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #eee;
+}
+
+h2{
+    margin-top:20px;
+    color:#111;
+}
+
+.bio{
+    margin-top:10px;
+    color:#666;
+    text-align:center;
+    padding:0 20px;
+    background-color: #6F4E37;
+    color: white;
+    border-radius: 10px;
+}
+
+.socials{
+    position: fixed;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+
+}
+.socials a{
+    width:auto;
+    height:auto;
+    background:transparent;
+    border-radius:0;
+    display:inline-block;
+    font-size:28px;
+    transition:.3s;
+    margin-right: 15px;
+}
+.fa-instagram{
+    color:#E4405F;
+}
+
+.fa-facebook{
+    color:#1877F2;
+}
+
+.fa-youtube{
+    color:#FF0000;
+}
+
+.fa-discord{
+    color:#5865F2;
+}
+
+
+.socials a:hover{
+    transform:translateY(-5px);
+}
+.info{
+    text-align:center;
+    font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+
+<div class="card">
+
+    <img src="me.jpg"class="profile">
+
+    <h2>Adam Ali</h2>
+
+    <p class="bio">
+        Computer Science & IT
+    </p>
+    <br><br>
+    <p class="info">
+        
+        Hi, I'm Adam.
+        A student passionate about web
+        development, learning English, and
+        creating new projects every day. 🚀
+        
+        I’m someone who always tries to improve and learn new skills every day, especially in English and technology. I don’t like staying at the same level, I prefer learning in a practical way and applying what I learn instead of just memorizing.
+
+        As a class leader, I’ve learned how to deal with different personalities, take responsibility, and help organize things in a better way. This role made me more patient and more aware of how to handle situations calmly.
+
+        I also enjoy web design and experimenting with HTML and CSS, especially changing layouts, colors, and icons to make websites look clean and modern.
+
+        In general, I’m focused on self-development, trying new things, and becoming better than I was yesterday.
+    </p>
+    <footer>
+
+        <div class="socials">
+
+            <a href="https://accountscenter.instagram.com/profiles/">
+                <i class="fa-brands fa-instagram instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-facebook facebook"></i>
+            </a>
+
+            <a href="https://youtube.com/@labubulala-d5p?si=AImGHotWEO14RFLm">
+                <i class="fa-brands fa-youtube youtube"></i>
+            </a>
+
+            <a href="https://discord.com/users/1035276856204738631">
+                <i class="fa-brands fa-discord discord"></i>
+            </a>
+
+        </div>
+    </footer>
+
+</div>
+
+</body>
+</html>
